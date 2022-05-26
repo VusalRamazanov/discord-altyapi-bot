@@ -119,7 +119,7 @@ if(message.guild){
   const data2 = cdb.get("cd2."+message.channel.id+message.guild.id)
  
   if(data1){
-  const blacklist = ["oç", "amk", "ananı sikiyim", "ananıskm", "piç", "Amk", "amsk", "sikim", "sikiyim", "orospu çocuğu", "piç kurusu", "kahpe", "orospu", "sik", "yarrak", "amcık", "amık", "yarram", "sikimi ye", "mk", "mq", "aq", "amq", "gay", "g@y", "bollock", "cındır", "CINDIR", "Cındır"];
+  const blacklist = ["oç", "amk", "ananı sikiyim", "ananıskm", "piç", "Amk", "amsk", "sikim", "sikiyim", "orospu çocuğu", "piç kurusu", "kahpe", "orospu", "sik", "yarrak", "amcık", "amık", "yarram", "sikimi ye", "mk", "mq", "aq", "amq", "gay", "g@y", "bollock", "cındır", "CINDIR", "Cındır", "bambılı", "piss", "0rospu", "or0spu", "0r0spu", "||amk||", "||orospu||", "||0rospu||", "awk", "zort"];
 
   let content = message.content.split(' ');
  
@@ -134,7 +134,7 @@ if(message.guild){
   }
 
     if(!data1 && data2){
-  const blacklist = ["oç", "amk", "ananı sikiyim", "ananıskm", "piç", "Amk", "amsk", "sikim", "sikiyim", "orospu çocuğu", "piç kurusu", "kahpe", "orospu", "sik", "yarrak", "amcık", "amık", "yarram", "sikimi ye", "mk", "mq", "aq", "amq", "gay", "g@y", "bollock", "cındır", "CINDIR", "Cındır"];
+  const blacklist = ["oç", "amk", "ananı sikiyim", "ananıskm", "piç", "Amk", "amsk", "sikim", "sikiyim", "orospu çocuğu", "piç kurusu", "kahpe", "orospu", "sik", "yarrak", "amcık", "amık", "yarram", "sikimi ye", "mk", "mq", "aq", "amq", "gay", "g@y", "bollock", "cındır", "CINDIR", "Cındır", "bambılı", "piss", "0rospu", "or0spu", "0r0spu", "||amk||", "||orospu||", "||0rospu||", "awk", "zort"];
 
   let content = message.content.split(' ');
  
